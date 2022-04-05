@@ -1,7 +1,5 @@
 package com.homework.gardenapp;
 //Name: Alan Lim Team 19
-//CUID: C18104514
-//Date: 4/18/2021
 //Project: Final Project Garden Helper App
 
 import androidx.annotation.NonNull;
