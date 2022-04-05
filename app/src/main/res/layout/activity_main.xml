@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="10dp"
+        android:background="@color/teal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/wDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wDay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wDay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wDay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wDay5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="5dp"
+        android:background="@color/teal"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/weather1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/iconDesc"/>
+    <ImageView
+        android:id="@+id/weather2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+
+        android:contentDescription="@string/iconDesc"/>
+    <ImageView
+        android:id="@+id/weather3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/iconDesc"/>
+    <ImageView
+        android:id="@+id/weather4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/iconDesc"/>
+    <ImageView
+        android:id="@+id/weather5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/iconDesc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal"
+        android:paddingHorizontal="5dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dDay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dDay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dDay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dDay5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:hint="@string/pHint"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/sButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Garden Helper App</string>
+    <string name="iconDesc">Icon of image</string>
+
+    <string name="pHint">Enter Your Plant Here…</string>
+    <string name="search">Search</string>
+
+    <string name="AirHumid">Air Humidity</string>
+    <string name="AirPressure">Air Pressure</string>
+    <string name="AirTemp">Air Temperature</string>
+
+    <string name="pressure">Current Air Pressure is:&#160;</string>
+    <string name="plantPressure">Plant Recommended Pressure:&#160;</string>
+    <string name="humidity">Current Relative Humidity is:&#160;</string>
+    <string name="plantHumidity">Plant Recommended Humidity:&#160;</string>
+    <string name="temperature">Current Ambient Temperature is:&#160;</string>
+    <string name="plantTemperature">Plant Recommended Temperature:&#160;</string>
+
+    <string name="yourPlant">Your Plant is:&#160;</string>
+    <string name="sName">Scientific Name:&#160;</string>
+
+    <string name="weather_api_key">96c3dc13523d260e206ad1220739d2dd</string>
+    <string name="trefle_api_key">_XkyrKGXZDz1ZIqsE8CAmflSYVkBqWtMD1NMMV1bwWc</string>
+</resources>
